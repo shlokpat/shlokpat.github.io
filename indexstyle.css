@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter");
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: Bitter;	
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	overflow-x: hidden;
+}
+
+.home {
+	background-image: url("shlok.jpg");
+	display: table;
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+}
+
+.landing-text {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.navbar {
+	width: 100%;
+	padding: 20px;
+	position: fixed;
+	top: 0px;
+	transition: 0.5s;	
+	text-align: center;
+}
+
+.navbar ul li {
+	list-style-type: none;	
+	display: inline-block;
+	padding: 10px 30px;
+	cursor: pointer;
+	font-size: 120%;
+	color: orange;
+	max-width: 100%;
+}
+
+
+#greet {
+	font-size: 450%;
+	color: white;
+}
+#greet2 {
+	font-size: 225%;
+	color: white;
+	text-align: middle;
+	top: 50%;
+	transform: translateY(24%);
+}
+
+#box {
+	height: 50px;
+	width: 300px;
+	background-color: rgba(0,0,0,.2);
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.heading-text-about {
+	text-align: left;
+	color: orange;
+	font-size: 400%;
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.heading-text-resume {
+	text-align: left;
+	color: orange;
+	font-size: 400%;
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 100px;
+	margin-bottom: 15px;
+}
+
+.heading-text-projects {
+	text-align: left;
+	color: orange;
+	font-size: 400%;
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 100px;
+	margin-bottom: 15px;
+}
+
+.heading-text-contact {
+	text-align: left;
+	color: orange;
+	font-size: 400%;
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 100px;
+	margin-bottom: 15px;
+}
+
+
+.paragraph {
+	text-align: left;
+	color: black;
+	font-size: 135%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+.col-centered {
+	margin: 0 auto;	
+	float: none;
+}
+
+.scroll {
+	margin: 0 auto;
+	display: table;
+	max-width: 85%;
+	max-height: 85%;
+	margin-top: 50px;
+}
+
+
+
+.resume {
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0 3px 7px;
+	transition: 0.15s;
+	border-style: none;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+.resume:hover {
+	transform: scale(1.03);
+	z-index: 10;
+}
+
+
+.typed-text {
+	color: orange;
+}
+
+.cursor {
+	background-color: white;
+	animation: blink 0.87s infinite;
+}
+@keyframes blink {
+	0% {
+		background-color: white;
+	}
+	49% {
+		background-color: white;
+	}
+	50% {
+		background-color: transparent;
+	}
+	99% {
+		background-color: transparent;
+	}
+	100% {
+		background-color: white;
+	}
+}
+
+a:link {
+	color: grey;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	margin: 0px 90px;
+	font-size: 50px;
+	margin-left: -35px;
+}
+ul {
+	text-align: left;
+}
+
+.sm {
+	text-align: left;
+	background-color: none;
+}
+video {
+	position: relative;
+	height: auto;
+	width: 100%;
+	box-shadow: 0 2px 7px;
+	transition: 2s;
+}
+
+
+.video:hover {
+	transform: scale(1.03);
+	z-index: 10;
+}
+
+@media only screen and (min-width: 375px) {
+	li {
+		list-style: none;
+		display: inline-block;
+		margin: 0px 70px;
+		font-size: 50px;
+		margin-left: -35px;
+	}
+
+	#greet {
+		font-size: 430%;
+		color: white;
+	}
+	#greet2 {
+		font-size: 215%;
+		color: white;
+		text-align: middle;
+		top: 50%;
+		transform: translateY(24%);
+	}
+}
