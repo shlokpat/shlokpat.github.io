@@ -232,3 +232,12 @@ video {
 		transform: translateY(24%);
 	}
 }
+
+@media (max-width: 767px) {
+	.home {
+	
+		background-attachment: initial;
+	
+	}
+	}
+	
